@@ -1,0 +1,4 @@
+= USTH infosec
+
+== Overview
+Despite the course being named infosec, the main content is cryptography.
