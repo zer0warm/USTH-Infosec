@@ -36,7 +36,7 @@ func genA51KeyStreamToStdout(n int) {
 }
 
 func genStreamBit() int {
-	return (X.value & 1) ^ (Y.value & 1) ^ (Z.value & 1)
+	return getBit(X, 18) ^ getBit(Y, 21) ^ getBit(Z, 22)
 }
 
 func decideRegsToStep() {
